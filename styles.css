@@ -67,13 +67,26 @@ body{
     margin-top: 18px;
 }
 
-.nav-icons{
-    position: relative;
-
+.nav-bar{
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    line-height: 3.5;
 }
 
-.nav-icons>img{
-    height: 40px;
+.nav-bar>.acc-icon{
+    height: 50px;
+    margin-left: -10px;
+}
+
+.nav-bar>.cloud-icon{
+    margin-bottom: -55px;
+    margin-left: -5px;
+    height: 45px;
+}
+
+.nav-bar>img{
+    height: 28px;
 }
 
 #my-services-heading{
@@ -88,6 +101,14 @@ body{
 }
 
 
+.services-container-discription{
+    position: relative;
+    top: -8px;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
 
 /* .services-container>img{
     height: 50px;
@@ -142,21 +163,14 @@ body{
 .profile-container-icons img{
     margin: 0 8px;
     height: 18px;
+    
 
 }
 
 .services-icon{
     height: 30px; 
-    width: 35px;
+    /* width: 30px; */
 }
 
 
 
-
-.services-container-discription{
-    position: relative;
-    top: -8px;
-    font-size: 14px;
-    color: #666;
-    line-height: 1.5;
-}
