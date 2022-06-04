@@ -55,6 +55,27 @@ body{
     left: 140px;
 }
 
+.menu-button{
+    height: 70px;
+    width: 70px;
+    background-color: magenta;
+}
+
+.menu-button>img{
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+
+.nav-icons{
+    position: relative;
+
+}
+
+.nav-icons>img{
+    height: 40px;
+}
+
 #my-services-heading{
     position: absolute;
     top: 225px;
@@ -84,6 +105,20 @@ body{
     padding-right: 30px;
     position: absolute;
     top: 320px;
+    left: 630px;
+}
+
+.services-container3{
+    padding-right: 300px;
+    position: absolute;
+    top: 530px;
+    left: 340px;
+}
+
+.services-container4{
+    padding-right: 30px;
+    position: absolute;
+    top: 530px;
     left: 630px;
 }
 
