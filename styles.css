@@ -28,17 +28,20 @@ body{
 }
 
 
-.profile-container{
+/* .profile-container{
     height: 600px;
     width: 400px;
     background-color: aqua;
     position: absolute;
     top: 15px;
     left: 210px;
-}
+} */
 
 .profile-image{
     height: 600px;
+    position: absolute;
+    top: 15px;
+    left: 210px;
     box-shadow: 0px 0px 35px 8px #666; 
 }
 
@@ -98,8 +101,13 @@ body{
 .profile-container-icons{
     position: absolute;
     left: 340px;
-    top: 560px;
-    height: 100px;
+    top: 550px;
+}
+
+.profile-container-icons img{
+    margin: 0 8px;
+    height: 18px;
+
 }
 
 .services-icon{
