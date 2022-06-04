@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(238, 175, 186, 0.8);
+    font-family: sans-serif;
+}
+
+.main-container{
+    width: 900px;
+    height: 530px;
+    margin-top: 50px;
+    margin-left: 320px;
+    background-color: white;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.about-me{
+    line-height: 1.5;
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    left: 340px;
+    color: #666;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    
+}
+
+
+.profile-container{
+    height: 600px;
+    width: 400px;
+    background-color: aqua;
+    position: absolute;
+    top: 15px;
+    left: 210px;
+}
+
+.profile-image{
+    height: 600px;
+    box-shadow: 0px 0px 35px 8px #666; 
+}
+
+
+.left-menu-box{
+    height: 530px;
+    width: 70px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 140px;
+}
+
+#my-services-heading{
+    position: absolute;
+    top: 225px;
+    left: 340px;
+}
+
+#my-services-heading>h3{
+    font-size: 28px;
+    font-weight: 900;
+}
+
+
+
+/* .services-container>img{
+    height: 50px;
+    width: 52px;
+} */
+
+.services-container1{
+    padding-right: 300px;
+    position: absolute;
+    top: 320px;
+    left: 340px;
+}
+
+.services-container2{
+    padding-right: 30px;
+    position: absolute;
+    top: 320px;
+    left: 630px;
+}
+
+
+
+.profile-container-heading{
+    position: absolute;
+    left: 290px;
+    top: 440px;
+    color: white;
+    font-size: 40px;
+    text-shadow: 0px 5px 10px #666;
+}
+
+.profile-container-icons{
+    position: absolute;
+    left: 340px;
+    top: 560px;
+    height: 100px;
+}
+
+.services-icon{
+    height: 30px; 
+    width: 35px;
+}
+
+
+
+
+.services-container-discription{
+    position: relative;
+    top: -8px;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
